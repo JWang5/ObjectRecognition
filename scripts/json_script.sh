@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-rootname="/home/jiayi/ObjectRecognition/arid_40k_scene_dataset/Exp_3"
+rootname="/home/jiayi/aridDataset/arid_40k_scene_dataset/Exp_10"
 for f in $rootname/*; do
 result="${f%"${f##*[!/]}"}"
 result="${result##*/}_"

@@ -1,0 +1,10 @@
+Dataset: Exp_1
+Train_set: 901
+Test_set:225
+Step_per_epoch: 225
+Epoch: 40
+batch: 4
+
+learning rate: 0.001
+Train mAP: 0.838
+Test mAP: 0.567
