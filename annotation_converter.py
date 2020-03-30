@@ -9,7 +9,7 @@ import json
 from PIL import Image
 
 ROOT_PATH = "/home/jiayi/aridDataset/arid_40k_scene_dataset"
-DATA_ROOT_PATH = "/home/jiayi/aridDataset/arid_40k_scene_dataset/Exp_10"
+DATA_ROOT_PATH = "/home/jiayi/aridDataset/arid_40k_scene_dataset"
 
 
 def get_object_classes():  
@@ -119,9 +119,105 @@ def main():
                 
                 file.close()
 
-file = open("/home/jiayi/darknet/cfg/arid-obj.names", "w")        
-for c in classes:
-    file.write(c + "\n")
+#file = open("/home/jiayi/darknet/cfg/arid-obj.names", "w")        
+#for c in classes:
+#    file.write(c + "\n")
 
-file.close()
-            
+#file.close()
+
+all_classes = list()
+all_path = list()
+for root,_,json_files in os.walk(DATA_ROOT_PATH):
+        txt_root = root + "/rgb"
+        for json_file in json_files:
+            if json_file.split('.')[-1] == 'json':
+                file_name = json_file.split('/')[-1].split('.')[0] 
+                txt_name = file_name + ".txt"
+                txt_path = os.path.join(txt_root, txt_name)
+                
+                json_path = os.path.join(root, json_file)
+                annotations = json.load(open(json_path))                
+                for anno in annotations['annotations']:
+                    class_name = anno['id']
+                    if class_name is None:
+                        continue
+                    #class_name = class_name.split('_')[:-1]
+                    if not class_name.split('_')[1].isdigit():
+                        class_name = class_name.split('_')[0] +"_" + class_name.split('_')[1]
+                    else:
+                        class_name = class_name.split('_')[0]
+                    if all_classes.count(class_name) > 75:
+                        continue
+                    all_classes.append(class_name)
+                    all_path.append(json_path)
+                    
+#print(all_classes)
+                    
+my_dict = {i:all_classes.count(i) for i in all_classes}
+
+#import operator
+#
+#my_dict = sorted(my_dict.items(), key=operator.itemgetter(1))
+#
+#import collections
+#
+#my_dict = collections.OrderedDict(my_dict)
+#
+#length = 0
+#for value in my_dict.values():
+#    length += value
+#half = length / 2
+#sum_var = 0
+##finds the index of the middle of the dataset
+#for val in my_dict.values():
+#    if half-sum_var > 0:
+#        sum_var += val
+#    else:
+#        break
+#index = (list(my_dict.values()).index(val))
+##returns the median based off some characteristics of the dataset
+#if sum(list(my_dict.values())[index:]) != sum(list(my_dict.values())[:index]):
+#    if sum(list(my_dict.values())[index:]) > sum(list(my_dict.values())[:index]):
+#        median = list(my_dict.keys())[index]
+#    else:
+#        median = list(my_dict.keys())[index-1]
+#else:
+#    median = (list(my_dict.keys())[index-1] + list(my_dict.keys())[index]) / 2
+#print(median)                    
+                    
+                    
+                    
+                    
+                    
+print(my_dict)   
+print(len(my_dict))  #or print(my_dict) in python-3.x
+unique_path = list(dict.fromkeys(all_path))
+#print(unique_path)
+print(len(unique_path))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
