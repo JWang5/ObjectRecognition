@@ -1,0 +1,5 @@
+classes=51
+train=~/infhome/darknet/ObjectRecognition/train_data_paths.txt
+valid=~/infhome/darknet/ObjectRecognition/test_data_paths.txt
+names =~/infhome/darknet/arid.names
+backup = ~/infhome/darknet/backup

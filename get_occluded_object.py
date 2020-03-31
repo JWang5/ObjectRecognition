@@ -12,7 +12,13 @@ ROOT_PATH = "/home/jiayi/aridDataset/arid_40k_scene_dataset"
 OCCLUSION_PATH = "/home/jiayi/Downloads/occluded_images"
 SMALL_PATH = "/home/jiayi/Downloads/arid_40k_small_crops"
 
-def get_occluded_objects(source_path, all_occluded_img, condition_paths):
+def map_crop_to_image(source_path, p):
+    folder_name = p.split('/')[6]
+    img_index = int(p.split('/')[-1].split('_')[1]) + 1
+    img_index = "{0:0=3d}".format(img_index)
+    return source_path + '/' + folder_name +'/rgb/'+ folder_name +'_' + img_index + '.png'
+
+def get_occluded_objects(source_path, all_occluded_img, condition_paths, class_paths_dict):
     root_paths = list()
     for root,_,files in os.walk(source_path):
         if root.split('/')[-1].split('_')[0] == 'wp':
@@ -42,7 +48,7 @@ def get_occluded_objects(source_path, all_occluded_img, condition_paths):
         s = sorted(s,key=lambda x:int(x.split('/')[-5].split('_')[-2]))
         my_dict[c] = s
                 
-    all_occluded_paths = list()                  
+    all_occluded_paths = list()
     #for file in glob.glob(OCCLUSION_PATH + "/*.png"):
     for file in condition_paths:
         file_name = file.split('/')[-1]
@@ -58,12 +64,13 @@ def get_occluded_objects(source_path, all_occluded_img, condition_paths):
             continue
         occluded_path = object_paths[int(object_index)]
         all_occluded_paths.append(occluded_path)
-                
+        if class_name not in class_paths_dict:
+            class_paths_dict[class_name] = []
+        class_paths_dict[class_name].append(map_crop_to_image(source_path, occluded_path))
+
+                    
     for p in all_occluded_paths:
-        folder_name = p.split('/')[6]
-        img_index = int(p.split('/')[-1].split('_')[1]) + 1
-        img_index = "{0:0=3d}".format(img_index)
-        path = source_path + '/' + folder_name +'/rgb/'+ folder_name +'_' + img_index + '.png'
+        path = map_crop_to_image(source_path, p)
         all_occluded_img.append(path)    
 
 def get_class_sizes(paths):
@@ -89,30 +96,36 @@ def get_class_sizes(paths):
 
 
         
-file = open('/home/jiayi/ObjectRecognition/small_occluded', "r")
+file = open('/home/jiayi/ObjectRecognition/small_occluded_paths', "r")
 small_occluded = list()
 f = file.readlines()
 for l in f:
     small_occluded.append(l[:-1])
 print(len(small_occluded))    
 
+class_paths_dict = {}
 all_occluded_img = list()       
-get_occluded_objects(ROOT_PATH + '/Exp_3', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"))
+get_occluded_objects(ROOT_PATH + '/Exp_3', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"), class_paths_dict)
 print("after Exp_3: " + str(len(all_occluded_img)))
-get_occluded_objects(ROOT_PATH + '/Exp_5', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"))
+get_occluded_objects(ROOT_PATH + '/Exp_5', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"),class_paths_dict)
 print("after Exp_5: " + str(len(all_occluded_img)))
 
-get_occluded_objects(ROOT_PATH + '/Exp_6', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"))
+get_occluded_objects(ROOT_PATH + '/Exp_6', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"), class_paths_dict)
 print("after Exp_6: " + str(len(all_occluded_img)))
 
-get_occluded_objects(ROOT_PATH + '/Exp_8', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"))
+get_occluded_objects(ROOT_PATH + '/Exp_8', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"), class_paths_dict)
 print("after Exp_8: " + str(len(all_occluded_img)))
 
-get_occluded_objects(ROOT_PATH + '/Exp_9', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"))
+get_occluded_objects(ROOT_PATH + '/Exp_9', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"), class_paths_dict)
 print("after Exp_9: " + str(len(all_occluded_img)))
 
 unique_paths = list(dict.fromkeys(all_occluded_img))
 print("all unique paths for small and occluded objects: " + str(len(unique_paths)))
+
+#dict_txt = open('/home/jiayi/ObjectRecognition/class_path_dict.txt', "w+")
+#dict_txt.write(class_paths_dict)
+#dict_txt.close()
+print(class_paths_dict)
 
 background_count = list()
 for p in unique_paths:
