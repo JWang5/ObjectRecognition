@@ -19,12 +19,14 @@ def map_crop_to_image(source_path, p):
     return source_path + '/' + folder_name +'/rgb/'+ folder_name +'_' + img_index + '.png'
 
 def get_occluded_objects(source_path, all_occluded_img, condition_paths, class_paths_dict):
+    #get all wp_*_*_* folder paths from source path
     root_paths = list()
     for root,_,files in os.walk(source_path):
         if root.split('/')[-1].split('_')[0] == 'wp':
             root_paths.append(root)
     root_paths.sort()
         
+    #get class names
     classes = list()
     for root in root_paths:
         path = root + '/rgb/crops/'
@@ -33,7 +35,9 @@ def get_occluded_objects(source_path, all_occluded_img, condition_paths, class_p
             if class_name not in classes:
                 classes.append(class_name)
     
+    
     my_dict = {}  
+    #get croped image paths for class c and append to class_paths_dict
     for c in classes:  
         class_paths = list()        
         for root in root_paths:
@@ -43,36 +47,49 @@ def get_occluded_objects(source_path, all_occluded_img, condition_paths, class_p
                 for file in glob.glob(path + "/*.png"):
                     if file.split('/')[-2] == c:
                         class_paths.append(file)
+        #sort the class paths for class c to map the paths to occloded paths
         s = sorted(class_paths, key=lambda x:int(x.split('/')[-1].split('_')[-2]))
         s = sorted(s,key=lambda x:int(x.split('/')[-5].split('_')[-1]))
         s = sorted(s,key=lambda x:int(x.split('/')[-5].split('_')[-2]))
         my_dict[c] = s
                 
     all_occluded_paths = list()
-    #for file in glob.glob(OCCLUSION_PATH + "/*.png"):
     for file in condition_paths:
         file_name = file.split('/')[-1]
-        if not int(file_name.split('_')[3]) == int(source_path.split('_')[-1]):
-            continue
+        #check if the occluded image is in the source path
+        if not file_name.split('_')[1].isdigit():
+            if not int(file_name.split('_')[4]) == int(source_path.split('_')[-1]):
+                continue
+        else:
+            if not int(file_name.split('_')[3]) == int(source_path.split('_')[-1]):
+                continue
+        #get the index of the occluded image in class_path_dict
         object_index = file_name.split('.')[0].split('_')[-1]
+        #get class name from occluded image path
         if not file_name.split('_')[1].isdigit():
             class_name = file_name.split('_')[0] +"_" + file_name.split('_')[1]+ '_'+ file_name.split('_')[3]
         else:
             class_name = file_name.split('_')[0] + '_'+ file_name.split('_')[2]
+        #get all image_path in dict for class
         object_paths = my_dict.get(class_name)
         if object_paths is None:
             continue
+        #get image path in dict with index
         occluded_path = object_paths[int(object_index)]
+        #append to a list with all wanted paths
         all_occluded_paths.append(occluded_path)
+        #create a dict with class and its occluded paths
         if class_name not in class_paths_dict:
             class_paths_dict[class_name] = []
         class_paths_dict[class_name].append(map_crop_to_image(source_path, occluded_path))
 
-                    
+    #get image path
     for p in all_occluded_paths:
         path = map_crop_to_image(source_path, p)
         all_occluded_img.append(path)    
 
+
+#get classes with paths counts (not depending on occluded or not)
 def get_class_sizes(paths):
     all_classes = list()
     for f in paths:
@@ -95,13 +112,7 @@ def get_class_sizes(paths):
     
 
 
-        
-file = open('/home/jiayi/ObjectRecognition/small_occluded_paths', "r")
-small_occluded = list()
-f = file.readlines()
-for l in f:
-    small_occluded.append(l[:-1])
-print(len(small_occluded))    
+
 
 class_paths_dict = {}
 all_occluded_img = list()       
@@ -122,40 +133,69 @@ print("after Exp_9: " + str(len(all_occluded_img)))
 unique_paths = list(dict.fromkeys(all_occluded_img))
 print("all unique paths for small and occluded objects: " + str(len(unique_paths)))
 
-#dict_txt = open('/home/jiayi/ObjectRecognition/class_path_dict.txt', "w+")
-#dict_txt.write(class_paths_dict)
-#dict_txt.close()
-print(class_paths_dict)
 
-background_count = list()
-for p in unique_paths:
-    b = p.split('/')[-3].split('_')[-2]
-    background_count.append(b)    
+#save class path dict as json
+#with open('class_path_dict.json', 'w') as outfile:
+#    json.dump(class_paths_dict, outfile)
+#save the counts of each class
+class_dict = json.load(open('/home/jiayi/ObjectRecognition/data_statistic/class_path_dict.json'))
+new_dict = {}
+for i in class_dict:
+    if not i.split('_')[1].isdigit():
+        class_name = i.split('_')[0] +"_" + i.split('_')[1]
+    else:
+        class_name = i.split('_')[0]
+    if class_name not in new_dict:
+        new_dict[class_name] = []
+    new_dict[class_name].append(len(class_dict[i]))
 
-counter = {i:background_count.count(i) for i in background_count}
-print(counter)
-get_class_sizes(unique_paths)
+for i in new_dict:
+    counts = new_dict[i]
+    size = 0
+    for c in counts:
+        size += c
+    new_dict[i] = size
+    
+#with open('class_occlusion_count.json', 'w') as outfile:
+#    json.dump(new_dict, outfile)
 
+
+#background_count = list()
+#for p in unique_paths:
+#    b = p.split('/')[-3].split('_')[-2]
+#    background_count.append(b)    
+
+#counter = {i:background_count.count(i) for i in background_count}
+#print(counter)
+#get_class_sizes(unique_paths)
+
+##get all small and occluded image paths
+file = open('/home/jiayi/ObjectRecognition/small_occluded_paths', "r")
+small_occluded = list()
+f = file.readlines()
+for l in f:
+    small_occluded.append(l[:-1])
+print(len(small_occluded))  
 
 small_occluded_img = list()       
-get_occluded_objects(ROOT_PATH + '/Exp_3', small_occluded_img, small_occluded)
+get_occluded_objects(ROOT_PATH + '/Exp_3', small_occluded_img, small_occluded, {})
 print("after Exp_3: " + str(len(small_occluded_img)))
-get_occluded_objects(ROOT_PATH + '/Exp_5', small_occluded_img, small_occluded)
+get_occluded_objects(ROOT_PATH + '/Exp_5', small_occluded_img, small_occluded, {})
 print("after Exp_5: " + str(len(small_occluded_img)))
 
-get_occluded_objects(ROOT_PATH + '/Exp_6', small_occluded_img, small_occluded)
+get_occluded_objects(ROOT_PATH + '/Exp_6', small_occluded_img, small_occluded, {})
 print("after Exp_6: " + str(len(small_occluded_img)))
 
 #get_occluded_objects(ROOT_PATH + '/Exp_7', all_occluded_img, glob.glob(OCCLUSION_PATH + "/*.png"))
 #print("after Exp_7: " + str(len(all_occluded_img)))
 
-get_occluded_objects(ROOT_PATH + '/Exp_8', small_occluded_img, small_occluded)
+get_occluded_objects(ROOT_PATH + '/Exp_8', small_occluded_img, small_occluded, {})
 print("after Exp_8: " + str(len(small_occluded_img)))
 
-get_occluded_objects(ROOT_PATH + '/Exp_9', small_occluded_img, small_occluded)
+get_occluded_objects(ROOT_PATH + '/Exp_9', small_occluded_img, small_occluded, {})
 print("after Exp_9: " + str(len(small_occluded_img)))
 
-unique_small_occluded_paths = list(dict.fromkeys(small_occluded_img))
+unique_small_occluded_paths = list(dict.fromkeys(small_occluded_img, {}))
 print("all unique paths for small and occluded objects: " + str(len(unique_small_occluded_paths)))
 
 background_count = list()
@@ -166,14 +206,14 @@ for p in unique_small_occluded_paths:
 counter = {i:background_count.count(i) for i in background_count}
 print(counter)
 get_class_sizes(unique_small_occluded_paths)
-
+#
 #set_1, set_2 = set(unique_paths), set(unique_small_occluded_paths)
-#print(len(list(set_1 & set_2)))
-
-test_data = open('/home/jiayi/ObjectRecognition/test_data_paths', "w+")
-for i in unique_paths:
-    test_data.write(i + '\n')
-test_data.close()
+#print("duplicate: " + str(len(list(set_1 & set_2))))
+#
+#test_data = open('/home/jiayi/ObjectRecognition/test.txt', "w+")
+#for i in unique_paths:
+#    test_data.write(i + '\n')
+#test_data.close()
 
 
 

@@ -1,0 +1,28 @@
+test_set:
+
+background:
+{'1': 308, '4': 172, '2': 183, '3': 96}
+
+occluded: 
+{'sponge': 21, 'mushroom': 2, 'potato': 4, 'stapler': 22, 'plate': 29, 'glue_stick': 17, 'food_bag': 28, 'peach': 24, 'soda_can': 24, 'comb': 20, 'orange': 17, 'kleenex': 46, 'toothpaste': 23, 'banana': 25, 'pliers': 22, 'marker': 24, 'cell_phone': 28, 'hand_towel': 48, 'food_box': 24, 'pitcher': 36, 'garlic': 17, 'bell_pepper': 21, 'food_jar': 21, 'bowl': 39, 'keyboard': 22, 'pear': 15, 'shampoo': 22, 'lightbulb': 22, 'rubber_eraser': 3, 'camera': 24, 'food_can': 25, 'coffee_mug': 30, 'flashlight': 19, 'scissors': 25, 'apple': 30, 'instant_noodles': 39, 'tomato': 26, 'ball': 25, 'toothbrush': 5, 'calculator': 36, 'cereal_box': 23, 'cap': 57, 'dry_battery': 1, 'lime': 5, 'lemon': 17, 'water_bottle': 25, 'notebook': 33, 'binder': 40, 'food_cup': 16}
+
+all_classes:
+{'sponge': 81, 'greens': 188, 'mushroom': 185, 'potato': 186, 'stapler': 252, 'plate': 128, 'glue_stick': 131, 'food_bag': 167, 'peach': 167, 'soda_can': 152, 'comb': 178, 'orange': 79, 'kleenex': 226, 'toothpaste': 213, 'banana': 88, 'pliers': 164, 'marker': 324, 'cell_phone': 315, 'hand_towel': 201, 'lime': 58, 'tomato': 133, 'garlic': 119, 'bell_pepper': 200, 'food_jar': 104, 'bowl': 193, 'keyboard': 270, 'pear': 175, 'shampoo': 328, 'lightbulb': 176, 'pitcher': 219, 'rubber_eraser': 242, 'camera': 163, 'food_can': 176, 'coffee_mug': 174, 'flashlight': 192, 'scissors': 200, 'apple': 266, 'onion': 76, 'instant_noodles': 187, 'ball': 222, 'toothbrush': 139, 'calculator': 170, 'cereal_box': 237, 'cap': 280, 'dry_battery': 263, 'food_box': 282, 'lemon': 95, 'water_bottle': 245, 'notebook': 247, 'binder': 326, 'food_cup': 169}
+
+size: 759
+
+
+
+val_set:
+
+background:
+{'1': 126, '2': 192, '4': 23, '3': 174}
+
+all_classes:
+{'peach': 154, 'greens': 178, 'mushroom': 144, 'potato': 42, 'stapler': 130, 'bowl': 171, 'glue_stick': 130, 'food_bag': 76, 'soda_can': 47, 'comb': 126, 'kleenex': 242, 'toothpaste': 307, 'banana': 99, 'pliers': 51, 'marker': 117, 'cell_phone': 240, 'lightbulb': 213, 'pitcher': 177, 'garlic': 38, 'bell_pepper': 232, 'food_jar': 84, 'plate': 46, 'keyboard': 182, 'pear': 127, 'shampoo': 296, 'rubber_eraser': 77, 'camera': 224, 'food_can': 165, 'flashlight': 205, 'scissors': 107, 'apple': 96, 'onion': 48, 'instant_noodles': 184, 'tomato': 21, 'ball': 109, 'toothbrush': 186, 'calculator': 178, 'cereal_box': 167, 'cap': 333, 'dry_battery': 279, 'food_box': 173, 'lemon': 45, 'water_bottle': 238, 'notebook': 333, 'binder': 167, 'food_cup': 197, 'hand_towel': 223}
+
+size: 515
+
+train set size: 2024
+
+total: 3298
