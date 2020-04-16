@@ -1,0 +1,16 @@
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_4_48/rgb/wp_6_4_48_004.png
+./aridDataset/arid_40k_scene_dataset/Exp_9/wp_9_4_90/rgb/wp_9_4_90_012.png
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_1_45/rgb/wp_6_1_45_003.png
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_1_45/rgb/wp_6_1_45_006.png
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_1_45/rgb/wp_6_1_45_010.png
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_1_45/rgb/wp_6_1_45_005.png
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_4_48/rgb/wp_6_4_48_005.png
+./aridDataset/arid_40k_scene_dataset/Exp_5/wp_5_1_87/rgb/wp_5_1_87_012.png
+./aridDataset/arid_40k_scene_dataset/Exp_5/wp_5_3_47/rgb/wp_5_3_47_013.png
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_1_45/rgb/wp_6_1_45_007.png
+./aridDataset/arid_40k_scene_dataset/Exp_5/wp_5_1_49/rgb/wp_5_1_49_006.png
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_1_45/rgb/wp_6_1_45_004.png
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_1_45/rgb/wp_6_1_45_008.png
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_1_45/rgb/wp_6_1_45_009.png
+./aridDataset/arid_40k_scene_dataset/Exp_6/wp_6_2_50/rgb/wp_6_2_50_015.png
+./aridDataset/arid_40k_scene_dataset/Exp_9/wp_9_4_90/rgb/wp_9_4_90_013.png
