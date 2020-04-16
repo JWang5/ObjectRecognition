@@ -154,44 +154,66 @@ for c in class_dict:
                 
 eliminate_paths = list(dict.fromkeys(eliminate_paths, {}))
 
-print("unique test paths: " + str(len(test_paths)))
-print("unique eliminate paths: " + str(len(eliminate_paths)))
+class_dict = remove_paths(class_dict, eliminate_paths)
+paths_dict = {}
+for c in class_dict:
+    if not c.split('_')[1].isdigit():
+        class_name = c.split('_')[0] +"_" + c.split('_')[1]
+    else:
+        class_name = c.split('_')[0]
 
-test_dict, final_dict, s, all_size = get_paths_statistic(class_dict, True, eliminate_paths)
+    if class_name not in paths_dict:
+        paths_dict[class_name] = []
+    for f in class_dict[c]:
+        paths_dict[class_name].append(f)
 
-print(test_dict)
-print(len(test_dict), s)
+for c in paths_dict:
+    paths_dict[c] = list(dict.fromkeys(paths_dict[c], {}))
 
-uniq_test_set = get_unique_paths(final_dict)
-print("test set size: " + str(len(uniq_test_set)))
+for c in paths_dict:
+    c_file = open('/home/jiayi/ObjectRecognition/'+ c + '.txt', "w+")
+    for p in paths_dict[c]:
+        c_file.write(p + '\n')
+    c_file.close()
 
-
-val_set = list()
-for i in uniq_paths:
-    if i not in uniq_test_set:
-        val_set.append(i)
-
-print("val set size: " + str(len(val_set)))
-
-
-ROOT_PATH = "/home/jiayi/aridDataset/arid_40k_scene_dataset"
-
-paths = list()
-for root,_,files in os.walk(ROOT_PATH):
-    for f in files:
-        if f.split('.')[-1] == 'png' and root.split('/')[-1] == 'rgb':
-          f = os.path.join(root, f)
-          paths.append(f)
-print(len(paths))
-
-train_paths = list()
-for p in paths:
-    if p not in uniq_paths:
-        train_paths.append(p)
-print("train set size: " + str(len(train_paths)))
+#print("unique test paths: " + str(len(test_paths)))
+#print("unique eliminate paths: " + str(len(eliminate_paths)))
+#
+#test_dict, final_dict, s, all_size = get_paths_statistic(class_dict, True, eliminate_paths)
+#
+#print(test_dict)
+#print(len(test_dict), s)
+#
+#uniq_test_set = get_unique_paths(final_dict)
+#print("test set size: " + str(len(uniq_test_set)))
 
 
-set_1, set_2 = set(train_paths), set(uniq_test_set)
+#val_set = list()
+#for i in uniq_paths:
+#    if i not in uniq_test_set:
+#        val_set.append(i)
+#
+#print("val set size: " + str(len(val_set)))
+
+
+#ROOT_PATH = "/home/jiayi/aridDataset/arid_40k_scene_dataset"
+#
+#paths = list()
+#for root,_,files in os.walk(ROOT_PATH):
+#    for f in files:
+#        if f.split('.')[-1] == 'png' and root.split('/')[-1] == 'rgb':
+#          f = os.path.join(root, f)
+#          paths.append(f)
+#print(len(paths))
+#
+#train_paths = list()
+#for p in paths:
+#    if p not in uniq_paths:
+#        train_paths.append(p)
+#print("train set size: " + str(len(train_paths)))
+#
+#
+#set_1, set_2 = set(train_paths), set(uniq_test_set)
 #print("duplicate: " + str(len(list(set_1 & set_2))))
 
 
@@ -214,23 +236,23 @@ set_1, set_2 = set(train_paths), set(uniq_test_set)
 #train_data.close()
 
 
-background_count = list()
-for p in uniq_test_set:
-    b = p.split('/')[-3].split('_')[-2]
-    background_count.append(b)   
-counter = {i:background_count.count(i) for i in background_count}
-print(counter)
-
-get_class_sizes(uniq_test_set)
-
-background_count = list()
-for p in val_set:
-    b = p.split('/')[-3].split('_')[-2]
-    background_count.append(b)   
-counter = {i:background_count.count(i) for i in background_count}
-print(counter)
-
-get_class_sizes(val_set)
+#background_count = list()
+#for p in uniq_test_set:
+#    b = p.split('/')[-3].split('_')[-2]
+#    background_count.append(b)   
+#counter = {i:background_count.count(i) for i in background_count}
+#print(counter)
+#
+#get_class_sizes(uniq_test_set)
+#
+#background_count = list()
+#for p in val_set:
+#    b = p.split('/')[-3].split('_')[-2]
+#    background_count.append(b)   
+#counter = {i:background_count.count(i) for i in background_count}
+#print(counter)
+#
+#get_class_sizes(val_set)
 
 
 

@@ -1,5 +1,5 @@
 classes=51
-train=train.txt
-valid=val.txt
-names=arid.names
-backup=backup/
+train=/home/jiayi/ObjectRecognition/train.txt
+valid=/home/jiayi/ObjectRecognition/val.txt
+names=/home/jiayi/ObjectRecognition/arid.names
+backup=/home/jiayi/darknet/backup/
