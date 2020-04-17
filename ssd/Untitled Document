@@ -1,0 +1,690 @@
+Tesla P100-PCIE-16GB, pci bus id: 0000:00:04.0, compute capability: 6.0)
+
+Old:
+
+I0411 21:12:00.483991 140258338490240 basic_session_run_hooks.py:260] loss = 4.660911, step = 4946 (41.819 sec)
+I0411 21:13:52.216528 140254810777344 coco_evaluation.py:205] Performing evaluation on 754 images.
+creating index...
+index created!
+INFO:tensorflow:Loading and preparing annotation results...
+I0411 21:13:52.227930 140254810777344 coco_tools.py:115] Loading and preparing annotation results...
+INFO:tensorflow:DONE (t=0.01s)
+I0411 21:13:52.237872 140254810777344 coco_tools.py:137] DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=4.60s).
+Accumulating evaluation results...
+DONE (t=0.80s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.314
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.565
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.322
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.102
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.330
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.602
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.374
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.136
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.429
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.659
+INFO:tensorflow:Finished evaluation at 2020-04-11-21:13:57
+INFO:tensorflow:Saving dict for global step 5043: 
+DetectionBoxes_Precision/mAP = 0.31381705, 
+DetectionBoxes_Precision/mAP (large) = 0.60159093, 
+DetectionBoxes_Precision/mAP (medium) = 0.3299821, 
+DetectionBoxes_Precision/mAP (small) = 0.10220076, 
+DetectionBoxes_Precision/mAP@.50IOU = 0.5645164, 
+DetectionBoxes_Precision/mAP@.75IOU = 0.3221818, 
+DetectionBoxes_Recall/AR@1 = 0.37376118, 
+DetectionBoxes_Recall/AR@10 = 0.39981303, 
+DetectionBoxes_Recall/AR@100 = 0.39981303, 
+DetectionBoxes_Recall/AR@100 (large) = 0.6593773, 
+DetectionBoxes_Recall/AR@100 (medium) = 0.4287414, 
+DetectionBoxes_Recall/AR@100 (small) = 0.13605401, 
+Loss/classification_loss = 3.570316, 
+Loss/localization_loss = 0.9070677, 
+Loss/regularization_loss = 1.397842, 
+Loss/total_loss = 5.8752375, 
+global_step = 5043, 
+learning_rate = 0.003, 
+loss = 5.8752375
+
+
+I0411 21:23:51.868225 140254810777344 coco_evaluation.py:205] Performing evaluation on 754 images.
+creating index...
+index created!
+INFO:tensorflow:Loading and preparing annotation results...
+I0411 21:23:51.874110 140254810777344 coco_tools.py:115] Loading and preparing annotation results...
+INFO:tensorflow:DONE (t=0.01s)
+I0411 21:23:51.883178 140254810777344 coco_tools.py:137] DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=4.50s).
+Accumulating evaluation results...
+DONE (t=0.78s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.333
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.592
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.345
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.110
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.353
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.616
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.390
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.145
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.449
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.656
+Saving dict for global step 6297: 
+DetectionBoxes_Precision/mAP = 0.33345738, 
+DetectionBoxes_Precision/mAP (large) = 0.61608094, 
+DetectionBoxes_Precision/mAP (medium) = 0.35337013, 
+DetectionBoxes_Precision/mAP (small) = 0.10957457, 
+DetectionBoxes_Precision/mAP@.50IOU = 0.59174716, 
+DetectionBoxes_Precision/mAP@.75IOU = 0.34516832, 
+DetectionBoxes_Recall/AR@1 = 0.38992164, 
+DetectionBoxes_Recall/AR@10 = 0.41641197, 
+DetectionBoxes_Recall/AR@100 = 0.41641197, 
+DetectionBoxes_Recall/AR@100 (large) = 0.6559747, 
+DetectionBoxes_Recall/AR@100 (medium) = 0.44912708, 
+DetectionBoxes_Recall/AR@100 (small) = 0.14494681, 
+Loss/classification_loss = 3.454514, 
+Loss/localization_loss = 0.83414435, 
+Loss/regularization_loss = 1.3424807, 
+Loss/total_loss = 5.6311464, global_step = 6297, 
+learning_rate = 0.003, loss = 5.6311464
+
+
+
+I0411 21:33:51.348502 140254810777344 coco_evaluation.py:205] Performing evaluation on 754 images.
+creating index...
+index created!
+INFO:tensorflow:Loading and preparing annotation results...
+I0411 21:33:51.353921 140254810777344 coco_tools.py:115] Loading and preparing annotation results...
+INFO:tensorflow:DONE (t=0.01s)
+I0411 21:33:51.361887 140254810777344 coco_tools.py:137] DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=4.68s).
+Accumulating evaluation results...
+DONE (t=0.78s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.346
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.601
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.366
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.114
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.362
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.664
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.405
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.433
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.433
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.141
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.465
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.714
+INFO:tensorflow:Finished evaluation at 2020-04-11-21:33:57
+DetectionBoxes_Precision/mAP = 0.34632704, 
+DetectionBoxes_Precision/mAP (large) = 0.66441405, 
+DetectionBoxes_Precision/mAP (medium) = 0.36158422, 
+DetectionBoxes_Precision/mAP (small) = 0.114269525, 
+DetectionBoxes_Precision/mAP@.50IOU = 0.60072726, 
+DetectionBoxes_Precision/mAP@.75IOU = 0.36580282, 
+DetectionBoxes_Recall/AR@1 = 0.4050593, 
+DetectionBoxes_Recall/AR@10 = 0.43290213, 
+DetectionBoxes_Recall/AR@100 = 0.43290213, 
+DetectionBoxes_Recall/AR@100 (large) = 0.71376586, 
+DetectionBoxes_Recall/AR@100 (medium) = 0.46466714, 
+DetectionBoxes_Recall/AR@100 (small) = 0.14111839, 
+Loss/classification_loss = 3.3829634, 
+Loss/localization_loss = 0.84354156, 
+Loss/regularization_loss = 1.2885282, 
+Loss/total_loss = 5.515036, 
+global_step = 7554, 
+learning_rate = 0.003, 
+loss = 5.515036
+
+
+
+
+
+new:
+
+
+INFO:tensorflow:Saving dict for global step 1366: 
+Loss/classification_loss = 5.5468497, 
+Loss/localization_loss = 1.0814476, 
+Loss/regularization_loss = 1.548085, 
+Loss/total_loss = 8.176374, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.22117954, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.3563659, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.5402302, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.518518, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.12320124, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.5441072, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.37266013, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.09828279, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.51430607, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.19543722, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.68297535, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.2508121, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.26888865,
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.02661597, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.0046558706, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.28802586, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.33185995, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.0, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.20653279, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.106790476, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.047205787, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.2582856, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.8840791, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.6411384, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.33878544, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.7620684, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.16985375, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.29144213, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.08688335,
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.47393146, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.24266513, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.020540541, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.4466554, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.0061944635, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.59481645, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.07280176, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.13120201, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.29853305, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.2908696, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.5473082, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.14258388, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.38406134, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.043614905, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.24673165, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.38476142, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.6357168, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.099885084, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.13161185, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.0, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.0032429246, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.11067394, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.2831292, 
+global_step = 1366, 
+learning_rate = 0.003, 
+loss = 8.176374
+
+Saving dict for global step 2630: 
+Loss/classification_loss = 3.9334176, 
+Loss/localization_loss = 0.8188858, 
+Loss/regularization_loss = 1.5016953, 
+Loss/total_loss = 6.253986, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.4106826, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.46070546, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.6954246, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.7323991, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.62609005, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.73440504, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.5314697, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.46670184, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.7573472, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.37304515, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.69533163,
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.3341309, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.35646462, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.22281338, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.10580033, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.3998726, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.60352105, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.024857143, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.51885396, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.37078255, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.38518605, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.32986173, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.9562287, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.814804, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.59640986, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.75254697, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.43149498, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.47367924, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.4522011, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.7271258, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.36620545, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.30541697, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.5593042, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.061817184, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.7045819, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.3111355, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.4066754, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.5566514, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.41206807, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.5900992, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.45603764, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.5754604, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.14904982, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.45948833, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.56772447, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.8226469, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.5260968, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.66603315, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.031400967, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.05423639, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.42560896, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.4774113, 
+global_step = 2630, learning_rate = 0.003, loss = 6.253986
+
+INFO:tensorflow:Saving dict for global step 3903: 
+Loss/classification_loss = 3.5298088, 
+Loss/localization_loss = 0.73274857, 
+Loss/regularization_loss = 1.4452049, 
+Loss/total_loss = 5.7077775, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.46400148, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.66805995, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.76268065, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.71082765, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.73234963, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.74291474, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.62544686, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.5515328, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.8702737, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.48663732, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.64937294, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.30728903, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.34966388, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.29315093, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.19182986, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.4486413, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.70322996, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.14088054, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.61603177, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.44187889, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.4776329, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.4406421, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.93995297, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.82456493, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.6036781, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.7534484, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.49690944, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.5870119, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.5424135, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.8463439, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.37172475, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.47571746, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.5886823, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.26547027, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.7244371, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.43030554, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.567849, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.64506847, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.52139974, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.6753479, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.5890132, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.5501969, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.18899505, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.4620437, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.63612217, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.88982046, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.6490459, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.6753965, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.13897438, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.08399205, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.575663, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.54852074, 
+global_step = 3903, learning_rate = 0.003, loss = 5.7077775
+
+
+
+INFO:tensorflow:Saving dict for global step 5180: 
+Loss/classification_loss = 3.3390086, 
+Loss/localization_loss = 0.7086196, 
+Loss/regularization_loss = 1.3864604, 
+Loss/total_loss = 5.434075, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.551995, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.63804525, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.7765062, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.78405195, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.7590782, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.77856284, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.6896844, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.51112765, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.8399963, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.4801009, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.7380919, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.3539396, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.3892009, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.3285018, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.24740298, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.41329736, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.6965507, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.27905124, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.6181868, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.48909706, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.4656734, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.42793107, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.96961534, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.8616256, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.64342916, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.76026446, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.53993696, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.64746743, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.64719325, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.81896275, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.38009962, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.43715805, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.6274992, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.4384888, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.7113013, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.45333266, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.62588674, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.6764777, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.4953618, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.7123283, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.6408559, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.57280064, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.21824552, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.4837606, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.65710706, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.92641306, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.75758326, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.7443451, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.2592762, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.15223452, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.5647115, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.5819576, 
+global_step = 5180, learning_rate = 0.003, loss = 5.434075
+
+
+
+INFO:tensorflow:Saving dict for global step 6453: Loss/classification_loss = 3.0717828, Loss/localization_loss = 0.7365754, Loss/regularization_loss = 1.3287356, Loss/total_loss = 5.1370993, PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.6176905, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.7107423, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.79819643, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.8177943, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.8288816, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.8176116, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.7455496, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.5803043, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.86558276, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.55670273, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.7962599, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.41420248, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.4394606, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.34819627, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.3103176, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.48377147, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.77257454, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.34882957, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.6999325, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.58476776, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.49195668, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.3931683, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.9557898, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.8797582, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.73301977, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.76027316, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.66092587, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.6715499, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.62679136, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.85742927, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.44157836, PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.49429834, PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.6529247, PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.56132436, PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.7561174, PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.5195029, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.71347266, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.7359066, PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.5683983, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.72002, PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.69855547, PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.5390217, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.279884, PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.57438827, PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.6972697, PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.9259615, PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.7737522, PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.85886383, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.23496462, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.21149482, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.67033243, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.6312954, 
+global_step = 6453, learning_rate = 0.003, loss = 5.1370993
+
+
+INFO:tensorflow:Saving dict for global step 7724: Loss/classification_loss = 2.8565319, Loss/localization_loss = 0.6344452, Loss/regularization_loss = 1.272875, Loss/total_loss = 4.763843, PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.5756575, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.7701035, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.8377546, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.82140934, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.83052546, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.8039354, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.71490365, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.5415838, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.89172155, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.6421253, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.7493972, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.42250544, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.41611087, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.43352628, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.31065744, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.4695484, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.80371493, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.44122505, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.7065191, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.6311663, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.56215864, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.4880288, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.9586442, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.85403687, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.70477194, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.76185304, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.5730396, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.7041534, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.7376004, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.86712646, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.5276296, PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.5082554, PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.66768914, PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.6262426, PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.76464885, PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.53536594, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.6831766, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.73022145, PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.5414159, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.745364, PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.66478276, PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.60323536, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.2898274, PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.5835228, PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.6859694, PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.9470224, PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.73904383, PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.85765535, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.3862496, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.2629415, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.7079076, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.64869946, 
+global_step = 7724, learning_rate = 0.003, loss = 4.763843
+
+
+INFO:tensorflow:Saving dict for global step 10440: Loss/classification_loss = 2.8270218, Loss/localization_loss = 0.6219289, Loss/regularization_loss = 1.1626756, Loss/total_loss = 4.6116343, PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.58355856, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.79554915, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.78844494, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.8412426, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.844433, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.8388864, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.7446616, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.63061625, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.88004947, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.62892556, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.77980417, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.46033278, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.42301053, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.5135472, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.37731093, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.49854967, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.8596486, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.52897644, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.7895688, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.62938786, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.58885723, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.53348213, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.97938377, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.87771446, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.74546343, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.7975817, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.60661143, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.6838614, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.7426816, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.9218211, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.54424083, PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.6258855, PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.6366789, PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.7813051, PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.79573303, PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.53178144, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.7341383, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.7428395, PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.6735283, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.7966107, PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.80584323, PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.636513, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.34775963, PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.6337767, PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.6860841, PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.9461484, PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.7952552, PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.87979805, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.43699756, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.29694584, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.7043413, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.685219, 
+global_step = 10440, learning_rate = 0.003, loss = 4.6116343
+
+
+
+INFO:tensorflow:Saving dict for global step 11711: 
+Loss/classification_loss = 2.8088305, 
+Loss/localization_loss = 0.6163343, 
+Loss/regularization_loss = 1.1154934, 
+Loss/total_loss = 4.540664, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.5721774, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.8310291, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.8503262, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.8122326, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.8155899, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.8142397, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.8165405, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.59709257, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.905319, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.6352364, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.7898206, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.53202695, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.42409295, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.49782598, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.3903559, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.54424655, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.84353036, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.42447558, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.77610135, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.6788088, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.5766805, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.5928548, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.9790679, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.8858479, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.7265059, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.8053903, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.6105643, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.7671699, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.7696981, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.9434206, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.52579963, PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.60111713, PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.69122255, PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.77325803, PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.8061188, PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.5148929, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.73688924, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.79601413, PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.69824684, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.79563725, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.8192485, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.5926089, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.3375089, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.68465155, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.71137613, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.96382207, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.7349856, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.7171296, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.4254204, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.33165985, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.7593544, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.6906908, 
+global_step = 11711, learning_rate = 0.003, loss = 4.540664
+
+INFO:tensorflow:Saving dict for global step 12989: 
+Loss/classification_loss = 2.865476, 
+Loss/localization_loss = 0.59835774, 
+Loss/regularization_loss = 1.0712123, 
+Loss/total_loss = 4.535039, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.62348956, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.80778104, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.8421482, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.84203374, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.87183255, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.84593517, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.74604696, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.6090283, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.8712577, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.6238081, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.7746901, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.49583995, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.46468335, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.44485304, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.45066437, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.46543017, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.82774454, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.586212, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.78724974, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.65174025, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.5956444, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.48743606, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.978477, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.8253315, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.7474733, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.84687173, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.6477586, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.749247, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.7614464, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.94389325, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.6011008, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.58906513, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.7422805, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.8289874, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.8075433, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.6790818, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.7358877, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.7262241, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.72290885, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.81461406, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.8658378, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.5693611, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.35160574, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.70338106, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.73323214, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.9580523, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.78935677, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.8732201, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.43656382, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.34673113, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.7429181, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.7026275, 
+global_step = 12989, learning_rate = 0.003, loss = 4.535039
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:tensorflow:Saving dict for global step 18074: 
+Loss/classification_loss = 2.6584873, 
+Loss/localization_loss = 0.5705565, 
+Loss/regularization_loss = 0.9202057, 
+Loss/total_loss = 4.149247, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.6145367, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.825406, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.7884697, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.80415267, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.8590688, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.8205439, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.77449554, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.5814593, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.8686441, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.6806642, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.8216136, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.5254096, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.4445312, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.51348877, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.41801432, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.6126582, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.81097203, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.49441412, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.8293873, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.689011, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.55453867, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.5859039, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.97222686, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.92329884, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.7727899, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.86378545, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.726317, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.7423416, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.7632148, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.9480548, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.6237123, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.66430104, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.8213428, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.8496878, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.813236, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.61564535, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.7770557, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.8886982, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.74870765, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.7542466, PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.8632068, PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.62166727, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.36752188, PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.67709106, PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.7110192, PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.9853276, PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.76530856, PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.9197239, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.4878338, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.3317381, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.7304749, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.71856785, 
+global_step = 18074, learning_rate = 0.003, loss = 4.149247
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:tensorflow:Saving dict for global step 28261: 
+Loss/classification_loss = 2.6471307, 
+Loss/localization_loss = 0.54948354, 
+Loss/regularization_loss = 0.71769077, 
+Loss/total_loss = 3.9143105, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.6952592, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.8097456, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.8692131, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.83277977, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.88702756, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.83478075, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.73298097, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.6387747, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.79168516, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.7191342, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.82996005, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.54054856, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.4849635, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.5433496, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.5366187, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.56891394, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.83618784, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.57619184, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.799904, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.6512612, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.53646314, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.5991354, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.9834002, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.84577113, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.79349786, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.83618313, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.6720993, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.7493023, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.7389318, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.89628375, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.63862354, PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.6610095, PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.8153118, PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.8840596, PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.8231872, PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.612344, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.78093517, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.77325463, PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.77513945, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.85062146, PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.89476115, PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.6538394, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.4419487, PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.6663943, PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.7188529, PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.96957, PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.7589259, PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.9129654, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.5482796, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.33749914, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.7040014, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.7265073, 
+global_step = 28261, learning_rate = 0.003, loss = 3.9143105
+
+
+INFO:tensorflow:Saving dict for global step 29538: 
+Loss/classification_loss = 2.4936495, Loss/localization_loss = 0.54659194, Loss/regularization_loss = 0.6992206, Loss/total_loss = 3.73947, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.7002918, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.8354106, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.80598485, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.84894705, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.8568636, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.8431456, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.8210134, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.62907916, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.8667704, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.7671625, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.8541767, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.60327995, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.49494132, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.52623886, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.6030776, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.5974309, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.8563682, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.55195105, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.8064607, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.6612156, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.57464105, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.6644483, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.9715355, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.91038495, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.77087736, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.8653132, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.6692138, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.75969636, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.7770818, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.886943, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.6709124, PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.7087491, PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.7966082, PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.8972409, PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.8232799, PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.6528732, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.7644328, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.81234384, PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.7533908, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.8493164, PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.8763509, PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.6709416, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.4308931, PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.6652594, PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.71749383, PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.97198194, PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.8182579, PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.8661309, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.5208893, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.3836986, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.7275115, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.74036276, 
+global_step = 29538, learning_rate = 0.003, loss = 3.73947
+
+
+
+
+
+INFO:tensorflow:Saving dict for global step 33260: Loss/classification_loss = 2.4494166, Loss/localization_loss = 0.5375446, Loss/regularization_loss = 0.6523438, Loss/total_loss = 3.6393023, PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.65739006, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.7828062, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.8429855, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.78755504, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.8240602, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.8236833, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.8490744, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.69495857, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.81920975, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.70007044, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.87275267, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.59747726, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.5188075, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.5567043, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.60609365, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.55188584, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.8372072, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.5458, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.7807222, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.6688885, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.583873, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.68417025, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.94788396, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.8673814, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.7631133, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.87030756, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.6420301, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.7842825, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.81139976, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.9002591, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.6074894, PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.7270059, PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.84909075, PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.9180975, PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.8233735, PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.66602373, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.7979967, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.8197477, PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.7790967, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.8333872, PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.8799634, PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.6103809, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.41965282, PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.6803241, PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.7160521, PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.98362446, PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.8428094, PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.8917753, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.53948444, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.35340452, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.69206816, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.7373271, 
+global_step = 33260, learning_rate = 0.003, loss = 3.6393023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:tensorflow:Saving dict for global step 39583: 
+Loss/classification_loss = 2.5615852, Loss/localization_loss = 0.5194893, Loss/regularization_loss = 0.59127796, Loss/total_loss = 3.6723526, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.599645, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.8191192, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.90595096, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.8221782, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.8031424, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.8426666, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.84142977, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.63772184, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.8233311, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.63798165, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.86283, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.59146714, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.49151388, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.47556213, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.52122825, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.6227193, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.8189753, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.5117861, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.791514, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.68711656, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.56629527, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.7097534, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.9265795,
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.8996005, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.7111679, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.8463748, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.67476565, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.71557045, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.7786959, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.93351233, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.6663605, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.69951093, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.8192153, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.85967785, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.7993196, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.61204827, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.776699, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.8346808, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.7514982, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.78431135, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.8813174, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.63568544, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.4616483, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.6795752, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.7377486, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.98881114, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.83777696, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.88922, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.5264247, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.4197649, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.7119981, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.7302645, 
+global_step = 39583, learning_rate = 0.003, loss = 3.6723526
+
+
+
+
+
+
+
+INFO:tensorflow:Saving dict for global step 46137: 
+Loss/classification_loss = 2.438767, 
+Loss/localization_loss = 0.53037983, Loss/regularization_loss = 0.54556996, Loss/total_loss = 3.5147169, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.6951275, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.7385086, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.8602907, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.8376816, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.8206613, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.8127124, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.80697423, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.65216833, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.8532733, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.6351497, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.83185947, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.6343785, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.5261065, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.48758692, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.6611783, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.6118349, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.8251846, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.6274161, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.7810605, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.73620945, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.57616675, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.666577, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.9801498, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.91691875, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.8035517, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.9079617, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.7104998, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.78762895, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.78007185, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.91605586, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.63550746, PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.7305051, PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.83387727, PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.87994874, PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.8226675, PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.6303067, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.8214722, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.7967784, PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.76995414, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.85209394, PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.84400046, PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.6284462, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.46606043, PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.7260251, PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.7258235, PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.98956656, PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.86196226, PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.9139954, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.49828675, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.4175951, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.75168, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.7466176, 
+global_step = 46137, learning_rate = 0.003, loss = 3.5147169
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:tensorflow:Saving dict for global step 47415: 
+Loss/classification_loss = 2.5166845, Loss/localization_loss = 0.5296504, Loss/regularization_loss = 0.53820574, Loss/total_loss = 3.584535, 
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.65521806, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.7647422, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.8763703, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.8440954, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.8315532, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.80979824, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.8551966, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.67806, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.77294135, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.71238637, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.8431626, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.57859635, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.54717594, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.5487981, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.63210195, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.5568508, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.86892384, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.60497975, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.8019966, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.74111694, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.5637977, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.6755628, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.9795132, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.87650824, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.7925512, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.906357, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.6369378, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.819747, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.8018003, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.92480904, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.6947007, PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.74573123, PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.8125822, PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.91693926, PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.81769806, PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.6971501, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.79487264, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.8384704, PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.7728156, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.8648703, PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.8603788, PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.6520414, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.45376608, PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.7140764, PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.72387666, PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.99113137, PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.84695953, PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.93257684, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.45633608, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.3993956, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.68347865, 
+PascalBoxes_Precision/mAP@0.5IOU = 0.7484607, 
+global_step = 47415, learning_rate = 0.003, loss = 3.584535
+
+
+INFO:tensorflow:Saving dict for global step 50058: Loss/classification_loss = 2.4663994, Loss/localization_loss = 0.50742847, Loss/regularization_loss = 0.5245642, Loss/total_loss = 3.4983876, PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple = 0.6737319, PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball = 0.86378366, PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana = 0.8729846, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper = 0.8255948, PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder = 0.81145304, PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl = 0.8183142, PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator = 0.85310704, PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera = 0.6711932, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap = 0.8137686, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone = 0.7064394, PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box = 0.7974525, PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug = 0.62569356, PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb = 0.5469157, PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery = 0.53832257, PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight = 0.54405224, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag = 0.58577174, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box = 0.8165169, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can = 0.6376414, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup = 0.79768544, PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar = 0.7297326, PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic = 0.63004184, PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick = 0.7113135, PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens = 0.941281, PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel = 0.890352, PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles = 0.78367823, PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard = 0.84827554, PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex = 0.63717294, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon = 0.7483711, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb = 0.78655016, PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime = 0.96213996, PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker = 0.68751115, PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom = 0.7248037, PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook = 0.7971664, PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion = 0.84961826, PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange = 0.82581496, PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach = 0.61984956, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear = 0.75589216, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher = 0.8001034, PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate = 0.77899116, PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers = 0.8546813, PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato = 0.9105681, PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser = 0.6546812, PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors = 0.42543888, PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo = 0.72145325, PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can = 0.7326808, PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge = 0.9813716, PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler = 0.83978385, PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato = 0.905197, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush = 0.60479856, PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste = 0.41794816, PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle = 0.7611401, PascalBoxes_Precision/mAP@0.5IOU = 0.74742794, global_step = 50058, learning_rate = 0.003, loss = 3.4983876
+
+
+

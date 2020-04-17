@@ -1,0 +1,108 @@
+INFO:tensorflow:Losses/Loss/classification_loss: 2.401645
+I0416 23:55:53.298315 139728061200256 eval_util.py:87] Losses/Loss/classification_loss: 2.401645
+INFO:tensorflow:Losses/Loss/localization_loss: 0.520130
+I0416 23:55:53.298549 139728061200256 eval_util.py:87] Losses/Loss/localization_loss: 0.520130
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple: 0.620198
+I0416 23:55:53.298722 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/apple: 0.620198
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball: 0.704656
+I0416 23:55:53.299052 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/ball: 0.704656
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana: 0.919919
+I0416 23:55:53.299279 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/banana: 0.919919
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper: 0.879887
+I0416 23:55:53.299513 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/bell_pepper: 0.879887
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder: 0.852874
+I0416 23:55:53.299663 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/binder: 0.852874
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl: 0.820250
+I0416 23:55:53.299815 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/bowl: 0.820250
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator: 0.883870
+I0416 23:55:53.300078 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/calculator: 0.883870
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera: 0.670800
+I0416 23:55:53.300304 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/camera: 0.670800
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap: 0.817483
+I0416 23:55:53.300435 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/cap: 0.817483
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone: 0.650643
+I0416 23:55:53.300704 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/cell_phone: 0.650643
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box: 0.841072
+I0416 23:55:53.300870 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/cereal_box: 0.841072
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug: 0.630898
+I0416 23:55:53.301112 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/coffee_mug: 0.630898
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb: 0.575258
+I0416 23:55:53.301337 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/comb: 0.575258
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery: 0.605203
+I0416 23:55:53.301531 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/dry_battery: 0.605203
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight: 0.624339
+I0416 23:55:53.301715 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/flashlight: 0.624339
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag: 0.692346
+I0416 23:55:53.301897 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_bag: 0.692346
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box: 0.876761
+I0416 23:55:53.302098 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_box: 0.876761
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can: 0.655056
+I0416 23:55:53.302279 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_can: 0.655056
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup: 0.808406
+I0416 23:55:53.302493 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_cup: 0.808406
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar: 0.773331
+I0416 23:55:53.302678 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/food_jar: 0.773331
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic: 0.623929
+I0416 23:55:53.302793 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/garlic: 0.623929
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick: 0.735462
+I0416 23:55:53.303023 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/glue_stick: 0.735462
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens: 0.940581
+I0416 23:55:53.303218 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/greens: 0.940581
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel: 0.894856
+I0416 23:55:53.303450 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/hand_towel: 0.894856
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles: 0.817513
+I0416 23:55:53.303574 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/instant_noodles: 0.817513
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard: 0.868419
+I0416 23:55:53.303789 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/keyboard: 0.868419
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex: 0.719497
+I0416 23:55:53.303981 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/kleenex: 0.719497
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon: 0.803973
+I0416 23:55:53.304168 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/lemon: 0.803973
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb: 0.748340
+I0416 23:55:53.304383 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/lightbulb: 0.748340
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime: 0.957754
+I0416 23:55:53.304568 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/lime: 0.957754
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker: 0.663823
+I0416 23:55:53.304746 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/marker: 0.663823
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom: 0.779133
+I0416 23:55:53.304924 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/mushroom: 0.779133
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook: 0.833703
+I0416 23:55:53.305103 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/notebook: 0.833703
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion: 0.889195
+I0416 23:55:53.305301 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/onion: 0.889195
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange: 0.822423
+I0416 23:55:53.305425 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/orange: 0.822423
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach: 0.639132
+I0416 23:55:53.305544 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/peach: 0.639132
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear: 0.788246
+I0416 23:55:53.305660 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/pear: 0.788246
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher: 0.805009
+I0416 23:55:53.305772 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/pitcher: 0.805009
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate: 0.810969
+I0416 23:55:53.305881 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/plate: 0.810969
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers: 0.861498
+I0416 23:55:53.306021 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/pliers: 0.861498
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato: 0.953283
+I0416 23:55:53.306129 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/potato: 0.953283
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser: 0.652578
+I0416 23:55:53.306238 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/rubber_eraser: 0.652578
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors: 0.506977
+I0416 23:55:53.306376 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/scissors: 0.506977
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo: 0.697880
+I0416 23:55:53.306679 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/shampoo: 0.697880
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can: 0.731021
+I0416 23:55:53.306879 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/soda_can: 0.731021
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge: 0.988920
+I0416 23:55:53.307002 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/sponge: 0.988920
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler: 0.818140
+I0416 23:55:53.307119 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/stapler: 0.818140
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato: 0.943940
+I0416 23:55:53.307229 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/tomato: 0.943940
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush: 0.588718
+I0416 23:55:53.307365 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothbrush: 0.588718
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste: 0.416852
+I0416 23:55:53.307480 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/toothpaste: 0.416852
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle: 0.681490
+I0416 23:55:53.307598 139728061200256 eval_util.py:87] PascalBoxes_PerformanceByCategory/AP@0.5IOU/water_bottle: 0.681490
+INFO:tensorflow:PascalBoxes_Precision/mAP@0.5IOU: 0.762480
+I0416 23:55:53.307707 139728061200256 eval_util.py:87] PascalBoxes_Precision/mAP@0.5IOU: 0.762480

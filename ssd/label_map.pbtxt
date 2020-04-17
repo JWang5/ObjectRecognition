@@ -1,0 +1,208 @@
+item {
+  id: 0
+  name: "background"
+}
+item {
+  id: 1
+  name: "cap"
+}
+item {
+  id: 2
+  name: "soda_can"
+}
+item {
+  id: 3
+  name: "scissors"
+}
+item {
+  id: 4
+  name: "notebook"
+}
+item {
+  id: 5
+  name: "camera"
+}
+item {
+  id: 6
+  name: "marker"
+}
+item {
+  id: 7
+  name: "flashlight"
+}
+item {
+  id: 8
+  name: "greens"
+}
+item {
+  id: 9
+  name: "apple"
+}
+item {
+  id: 10
+  name: "pitcher"
+}
+item {
+  id: 11
+  name: "food_jar"
+}
+item {
+  id: 12
+  name: "keyboard"
+}
+item {
+  id: 13
+  name: "food_bag"
+}
+item {
+  id: 14
+  name: "comb"
+}
+item {
+  id: 15
+  name: "kleenex"
+}
+item {
+  id: 16
+  name: "bowl"
+}
+item {
+  id: 17
+  name: "toothbrush"
+}
+item {
+  id: 18
+  name: "bell_pepper"
+}
+item {
+  id: 19
+  name: "toothpaste"
+}
+item {
+  id: 20
+  name: "hand_towel"
+}
+item {
+  id: 21
+  name: "cereal_box"
+}
+item {
+  id: 22
+  name: "coffee_mug"
+}
+item {
+  id: 23
+  name: "pear"
+}
+item {
+  id: 24
+  name: "calculator"
+}
+item {
+  id: 25
+  name: "mushroom"
+}
+item {
+  id: 26
+  name: "peach"
+}
+item {
+  id: 27
+  name: "rubber_eraser"
+}
+item {
+  id: 28
+  name: "pliers"
+}
+item {
+  id: 29
+  name: "potato"
+}
+item {
+  id: 30
+  name: "cell_phone"
+}
+item {
+  id: 31
+  name: "food_box"
+}
+item {
+  id: 32
+  name: "garlic"
+}
+item {
+  id: 33
+  name: "stapler"
+}
+item {
+  id: 34
+  name: "shampoo"
+}
+item {
+  id: 35
+  name: "binder"
+}
+item {
+  id: 36
+  name: "tomato"
+}
+item {
+  id: 37
+  name: "ball"
+}
+item {
+  id: 38
+  name: "orange"
+}
+item {
+  id: 39
+  name: "lime"
+}
+item {
+  id: 40
+  name: "sponge"
+}
+item {
+  id: 41
+  name: "food_can"
+}
+item {
+  id: 42
+  name: "plate"
+}
+item {
+  id: 43
+  name: "lemon"
+}
+item {
+  id: 44
+  name: "lightbulb"
+}
+item {
+  id: 45
+  name: "glue_stick"
+}
+item {
+  id: 46
+  name: "onion"
+}
+item {
+  id: 47
+  name: "food_cup"
+}
+item {
+  id: 48
+  name: "banana"
+}
+item {
+  id: 49
+  name: "dry_battery"
+}
+item {
+  id: 50
+  name: "water_bottle"
+}
+item {
+  id: 51
+  name: "instant_noodles"
+}

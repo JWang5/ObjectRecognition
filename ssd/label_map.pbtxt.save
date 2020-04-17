@@ -1,0 +1,259 @@
+  name: "none_of_the_above"
+  id: 0
+  display_name: "background"
+}
+item {
+  name: "1"
+  id: 1
+  display_name: "cap"
+}
+item {
+  name: "2"
+  id: 2
+  display_name: "sonda_can"
+}
+item {
+  name: "3"
+  id: 3
+  display_name: "scissors"
+}
+item {
+  name: "4"
+  id: 4
+  display_name: "notebook"
+}
+item {
+  name: "5"
+  id: 5
+  display_name: "camera"
+}
+item {
+  name: "6"
+  id: 6
+  display_name: "marker"
+}
+item {
+  name: "7"
+  id: 7
+  display_name: "flashlight"
+}
+item {
+  name: "8"
+  id: 8
+  display_name: "greens"
+}
+item {
+  name: "9"
+  id: 9
+  display_name: "apple"
+}
+item {
+  name: "10"
+  id: 10
+  display_name: "pitcher"
+}
+item {
+  name: "11"
+  id: 11
+  display_name: "food_jar"
+}
+item {
+  name: "12"
+  id: 12
+  display_name: "keyboard"
+}
+item {
+  name: "13"
+  id: 13
+  display_name: "food_bag"
+}
+item {
+  name: "14"
+  id: 14
+  display_name: "comb"
+}
+item {
+  name: "15"
+  id: 15
+  display_name: "kleenex"
+}
+item {
+  name: "16"
+  id: 16
+  display_name: "bowl"
+}
+item {
+  name: "17"
+  id: 17
+  display_name: "toothbrush"
+}
+item {
+  name: "18"
+  id: 18
+  display_name: "bell_pepper"
+}
+item {
+  name: "19"
+  id: 19
+  display_name: "toothpaste"
+}
+item {
+  name: "20"
+  id: 20
+  display_name: "hand_towel"
+}
+item {
+  name: "21"
+  id: 21
+  display_name: "cereal_box"
+}
+item {
+  name: "22"
+  id: 22
+  display_name: "coffee_mug"
+}
+item {
+  name: "23"
+  id: 23
+  display_name: "pear"
+}
+item {
+  name: "24"
+  id: 24
+  display_name: "calculator"
+}
+item {
+  name: "25"
+  id: 25
+  display_name: "mushroom"
+}
+item {
+  name: "26"
+  id: 26
+  display_name: "peach"
+}
+item {
+  name: "27"
+  id: 27
+  display_name: "rubber_eraser"
+}
+item {
+  name: "28"
+  id: 28
+  display_name: "pliers"
+}
+item {
+  name: "29"
+  id: 29
+  display_name: "potato"
+}
+item {
+  name: "30"
+  id: 30
+  display_name: "cell_phone"
+}
+item {
+  name: "31"
+  id: 31
+  display_name: "food_box"
+}
+item {
+  name: "32"
+  id: 32
+  display_name: "garlic"
+}
+item {
+  name: "33"
+  id: 33
+  display_name: "stapler"
+}
+item {
+  name: "34"
+  id: 34
+  display_name: "shampoo"
+}
+item {
+  name: "35"
+  id: 35
+  display_name: "binder"
+}
+item {
+  name: "36"
+  id: 36
+  display_name: "tomato"
+}
+item {
+  name: "37"
+  id: 37
+  display_name: "ball"
+}
+item {
+  name: "38"
+  id: 38
+  display_name: "orange"
+}
+item {
+  name: "39"
+  id: 39
+  display_name: "lime"
+}
+item {
+  name: "40"
+  id: 40
+  display_name: "sponge"
+}
+item {
+  name: "41"
+  id: 41
+  display_name: "food_can"
+}
+item {
+  name: "42"
+  id: 42
+  display_name: "plate"
+}
+item {
+  name: "43"
+  id: 43
+  display_name: "lemon"
+}
+item {
+  name: "44"
+  id: 44
+  display_name: "lightbulb"
+}
+item {
+  name: "45"
+  id: 45
+  display_name: "glue_stick"
+}
+item {
+  name: "46"
+  id: 46
+  display_name: "onion"
+}
+item {
+  name: "47"
+  id: 47
+  display_name: "food_cup"
+}
+item {
+  name: "48"
+  id: 48
+  display_name: "banana"
+}
+item {
+  name: "49"
+  id: 49
+  display_name: "dry_battery"
+}
+item {
+  name: "50"
+  id: 50
+  display_name: "water_bottle"
+}
+item {
+  name: "51"
+  id: 51
+  display_name: "instant_noodles"
+}
