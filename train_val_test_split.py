@@ -167,32 +167,35 @@ for c in class_dict:
     for f in class_dict[c]:
         paths_dict[class_name].append(f)
 
+counter = []
 for c in paths_dict:
     paths_dict[c] = list(dict.fromkeys(paths_dict[c], {}))
+    counter.append([c, len(paths_dict[c])])
 
-for c in paths_dict:
-    c_file = open('/home/jiayi/ObjectRecognition/'+ c + '.txt', "w+")
-    for p in paths_dict[c]:
-        c_file.write(p + '\n')
-    c_file.close()
+#for c in paths_dict:
+#    c_file = open('/home/jiayi/ObjectRecognition/'+ c + '.txt', "w+")
+#    for p in paths_dict[c]:
+#        
+#        c_file.write(p + '\n')
+#    c_file.close()
 
 #print("unique test paths: " + str(len(test_paths)))
 #print("unique eliminate paths: " + str(len(eliminate_paths)))
 #
-#test_dict, final_dict, s, all_size = get_paths_statistic(class_dict, True, eliminate_paths)
+test_dict, final_dict, s, all_size = get_paths_statistic(class_dict, True, eliminate_paths)
 #
 #print(test_dict)
 #print(len(test_dict), s)
 #
-#uniq_test_set = get_unique_paths(final_dict)
-#print("test set size: " + str(len(uniq_test_set)))
+uniq_test_set = get_unique_paths(final_dict)
+print("test set size: " + str(len(uniq_test_set)))
 
 
 #val_set = list()
 #for i in uniq_paths:
 #    if i not in uniq_test_set:
 #        val_set.append(i)
-#
+##
 #print("val set size: " + str(len(val_set)))
 
 
@@ -236,13 +239,22 @@ for c in paths_dict:
 #train_data.close()
 
 
-#background_count = list()
-#for p in uniq_test_set:
-#    b = p.split('/')[-3].split('_')[-2]
-#    background_count.append(b)   
-#counter = {i:background_count.count(i) for i in background_count}
-#print(counter)
-#
+background_count = list()
+background_dict = {}
+for p in uniq_test_set:
+    b = p.split('/')[-3].split('_')[-2]
+    if b not in background_dict:
+        background_dict[b] = []
+    background_dict[b].append(p)
+    background_count.append(b)   
+counter = {i:background_count.count(i) for i in background_count}
+print(counter)
+for b in background_dict:
+    b_file = open('/home/jiayi/ObjectRecognition/background_'+ b + '.txt', "w+")
+    for p in background_dict[b]:
+        b_file.write(p + '\n')
+    b_file.close()
+
 #get_class_sizes(uniq_test_set)
 #
 #background_count = list()

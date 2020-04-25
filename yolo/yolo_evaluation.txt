@@ -1,0 +1,76 @@
+[yolo] params: iou loss: mse (2), iou_norm: 0.75, cls_norm: 1.00, scale_x_y: 1.00
+ Wrong iou_thresh_kind = iou 
+Total BFLOPS 65.668 
+avg_outputs = 526673 
+ Allocate additional workspace_size = 49.84 MB 
+Loading weights from backup/yolov3_best.weights...
+ seen 64, trained: 206 K-images (3 Kilo-batches_64) 
+Done! Loaded 107 layers from weights-file 
+
+ calculation mAP (mean average precision)...
+760
+ detections_count = 31213, unique_truth_count = 9751  
+class_id = 0, name = cap, ap = 96.23%   	 (TP = 236, FP = 22) 
+class_id = 1, name = soda_can, ap = 81.38%   	 (TP = 100, FP = 4) 
+class_id = 2, name = scissors, ap = 73.04%   	 (TP = 116, FP = 28) 
+class_id = 3, name = notebook, ap = 94.44%   	 (TP = 216, FP = 24) 
+class_id = 4, name = camera, ap = 81.34%   	 (TP = 126, FP = 30) 
+class_id = 5, name = marker, ap = 90.13%   	 (TP = 266, FP = 39) 
+class_id = 6, name = flashlight, ap = 83.36%   	 (TP = 133, FP = 15) 
+class_id = 7, name = greens, ap = 96.65%   	 (TP = 180, FP = 21) 
+class_id = 8, name = apple, ap = 70.17%   	 (TP = 142, FP = 5) 
+class_id = 9, name = pitcher, ap = 82.05%   	 (TP = 157, FP = 18) 
+class_id = 10, name = food_jar, ap = 86.15%   	 (TP = 80, FP = 4) 
+class_id = 11, name = keyboard, ap = 96.82%   	 (TP = 258, FP = 39) 
+class_id = 12, name = food_bag, ap = 79.16%   	 (TP = 109, FP = 19) 
+class_id = 13, name = comb, ap = 74.43%   	 (TP = 132, FP = 60) 
+class_id = 14, name = kleenex, ap = 86.11%   	 (TP = 154, FP = 5) 
+class_id = 15, name = bowl, ap = 98.45%   	 (TP = 182, FP = 3) 
+class_id = 16, name = toothbrush, ap = 71.19%   	 (TP = 52, FP = 6) 
+class_id = 17, name = bell_pepper, ap = 93.28%   	 (TP = 182, FP = 29) 
+class_id = 18, name = toothpaste, ap = 59.72%   	 (TP = 81, FP = 11) 
+class_id = 19, name = hand_towel, ap = 95.51%   	 (TP = 180, FP = 13) 
+class_id = 20, name = cereal_box, ap = 88.98%   	 (TP = 187, FP = 15) 
+class_id = 21, name = coffee_mug, ap = 76.77%   	 (TP = 119, FP = 20) 
+class_id = 22, name = pear, ap = 86.53%   	 (TP = 129, FP = 11) 
+class_id = 23, name = calculator, ap = 92.54%   	 (TP = 159, FP = 26) 
+class_id = 24, name = mushroom, ap = 83.47%   	 (TP = 142, FP = 34) 
+class_id = 25, name = peach, ap = 75.98%   	 (TP = 118, FP = 51) 
+class_id = 26, name = rubber_eraser, ap = 84.85%   	 (TP = 190, FP = 28) 
+class_id = 27, name = pliers, ap = 97.41%   	 (TP = 141, FP = 14) 
+class_id = 28, name = potato, ap = 88.78%   	 (TP = 161, FP = 43) 
+class_id = 29, name = cell_phone, ap = 93.06%   	 (TP = 269, FP = 21) 
+class_id = 30, name = food_box, ap = 92.56%   	 (TP = 225, FP = 20) 
+class_id = 31, name = garlic, ap = 96.64%   	 (TP = 108, FP = 7) 
+class_id = 32, name = stapler, ap = 92.78%   	 (TP = 214, FP = 6) 
+class_id = 33, name = shampoo, ap = 87.50%   	 (TP = 237, FP = 14) 
+class_id = 34, name = binder, ap = 91.70%   	 (TP = 284, FP = 29) 
+class_id = 35, name = tomato, ap = 93.92%   	 (TP = 120, FP = 15) 
+class_id = 36, name = ball, ap = 96.24%   	 (TP = 197, FP = 17) 
+class_id = 37, name = orange, ap = 83.36%   	 (TP = 64, FP = 19) 
+class_id = 38, name = lime, ap = 98.42%   	 (TP = 57, FP = 6) 
+class_id = 39, name = sponge, ap = 99.21%   	 (TP = 76, FP = 4) 
+class_id = 40, name = food_can, ap = 94.37%   	 (TP = 125, FP = 2) 
+class_id = 41, name = plate, ap = 93.19%   	 (TP = 107, FP = 11) 
+class_id = 42, name = lemon, ap = 76.20%   	 (TP = 91, FP = 87) 
+class_id = 43, name = lightbulb, ap = 84.12%   	 (TP = 135, FP = 33) 
+class_id = 44, name = glue_stick, ap = 85.42%   	 (TP = 95, FP = 23) 
+class_id = 45, name = onion, ap = 87.32%   	 (TP = 69, FP = 38) 
+class_id = 46, name = food_cup, ap = 94.38%   	 (TP = 153, FP = 20) 
+class_id = 47, name = banana, ap = 92.00%   	 (TP = 75, FP = 13) 
+class_id = 48, name = dry_battery, ap = 74.86%   	 (TP = 141, FP = 7) 
+class_id = 49, name = water_bottle, ap = 81.44%   	 (TP = 158, FP = 3) 
+class_id = 50, name = instant_noodles, ap = 91.50%   	 (TP = 157, FP = 15) 
+
+ for conf_thresh = 0.25, precision = 0.88, recall = 0.78, F1-score = 0.83 
+ for conf_thresh = 0.25, TP = 7585, FP = 1047, FN = 2166, average IoU = 68.89 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.871589, or 87.16 % 
+Total Detection Time: 17 Seconds
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+

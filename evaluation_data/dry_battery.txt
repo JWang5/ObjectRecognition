@@ -1,1 +1,1 @@
-./aridDataset/arid_40k_scene_dataset/Exp_5/wp_5_1_5/rgb/wp_5_1_5_010.png
+/home/jiayi/aridDataset/arid_40k_scene_dataset/Exp_5/wp_5_1_5/rgb/wp_5_1_5_010.png

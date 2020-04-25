@@ -1,0 +1,285 @@
+ObjectRecognition/background_eval/background_1.txt
+net.optimized_memory = 0 
+mini_batch = 1, batch = 32, time_steps = 1, train = 0 
+
+ seen 64, trained: 210 K-images (3 Kilo-batches_64) 
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 14586, unique_truth_count = 4136  
+class_id = 0, name = cap, ap = 98.53%   	 (TP = 120, FP = 14) 
+class_id = 1, name = soda_can, ap = 42.78%   	 (TP = 14, FP = 9) 
+class_id = 2, name = scissors, ap = 85.12%   	 (TP = 60, FP = 15) 
+class_id = 3, name = notebook, ap = 98.00%   	 (TP = 97, FP = 23) 
+class_id = 4, name = camera, ap = 92.49%   	 (TP = 62, FP = 0) 
+class_id = 5, name = marker, ap = 94.14%   	 (TP = 150, FP = 21) 
+class_id = 6, name = flashlight, ap = 92.85%   	 (TP = 62, FP = 7) 
+class_id = 7, name = greens, ap = 99.24%   	 (TP = 71, FP = 10) 
+class_id = 8, name = apple, ap = 74.49%   	 (TP = 54, FP = 3) 
+class_id = 9, name = pitcher, ap = 90.78%   	 (TP = 79, FP = 8) 
+class_id = 10, name = food_jar, ap = 99.14%   	 (TP = 27, FP = 3) 
+class_id = 11, name = keyboard, ap = 99.83%   	 (TP = 133, FP = 15) 
+class_id = 12, name = food_bag, ap = 72.41%   	 (TP = 42, FP = 5) 
+class_id = 13, name = comb, ap = 91.01%   	 (TP = 78, FP = 20) 
+class_id = 14, name = kleenex, ap = 96.98%   	 (TP = 71, FP = 6) 
+class_id = 15, name = bowl, ap = 99.83%   	 (TP = 81, FP = 4) 
+class_id = 16, name = toothbrush, ap = 89.53%   	 (TP = 53, FP = 2) 
+class_id = 17, name = bell_pepper, ap = 88.34%   	 (TP = 86, FP = 31) 
+class_id = 18, name = toothpaste, ap = 68.89%   	 (TP = 40, FP = 3) 
+class_id = 19, name = hand_towel, ap = 99.85%   	 (TP = 99, FP = 6) 
+class_id = 20, name = cereal_box, ap = 97.95%   	 (TP = 100, FP = 19) 
+class_id = 21, name = coffee_mug, ap = 85.21%   	 (TP = 45, FP = 14) 
+class_id = 22, name = pear, ap = 80.27%   	 (TP = 46, FP = 22) 
+class_id = 23, name = calculator, ap = 98.82%   	 (TP = 84, FP = 6) 
+class_id = 24, name = mushroom, ap = 81.09%   	 (TP = 39, FP = 11) 
+class_id = 25, name = peach, ap = 78.47%   	 (TP = 46, FP = 14) 
+class_id = 26, name = rubber_eraser, ap = 84.73%   	 (TP = 91, FP = 11) 
+class_id = 27, name = pliers, ap = 99.01%   	 (TP = 74, FP = 23) 
+class_id = 28, name = potato, ap = 98.98%   	 (TP = 77, FP = 25) 
+class_id = 29, name = cell_phone, ap = 98.48%   	 (TP = 158, FP = 5) 
+class_id = 30, name = food_box, ap = 95.33%   	 (TP = 108, FP = 12) 
+class_id = 31, name = garlic, ap = 98.84%   	 (TP = 51, FP = 6) 
+class_id = 32, name = stapler, ap = 90.77%   	 (TP = 124, FP = 3) 
+class_id = 33, name = shampoo, ap = 90.25%   	 (TP = 131, FP = 11) 
+class_id = 34, name = binder, ap = 96.97%   	 (TP = 151, FP = 20) 
+class_id = 35, name = tomato, ap = 98.47%   	 (TP = 46, FP = 4) 
+class_id = 36, name = ball, ap = 97.91%   	 (TP = 96, FP = 4) 
+class_id = 37, name = orange, ap = 98.61%   	 (TP = 8, FP = 7) 
+class_id = 38, name = lime, ap = 0.00%   	 (TP = 0, FP = 4) 
+class_id = 39, name = sponge, ap = 0.00%   	 (TP = 0, FP = 1) 
+class_id = 40, name = food_can, ap = 99.60%   	 (TP = 60, FP = 0) 
+class_id = 41, name = plate, ap = 98.28%   	 (TP = 22, FP = 8) 
+class_id = 42, name = lemon, ap = 77.93%   	 (TP = 35, FP = 27) 
+class_id = 43, name = lightbulb, ap = 89.83%   	 (TP = 91, FP = 14) 
+class_id = 44, name = glue_stick, ap = 96.89%   	 (TP = 80, FP = 6) 
+class_id = 45, name = onion, ap = 89.27%   	 (TP = 21, FP = 11) 
+class_id = 46, name = food_cup, ap = 90.47%   	 (TP = 42, FP = 13) 
+class_id = 47, name = banana, ap = 92.77%   	 (TP = 19, FP = 0) 
+class_id = 48, name = dry_battery, ap = 90.90%   	 (TP = 103, FP = 12) 
+class_id = 49, name = water_bottle, ap = 91.00%   	 (TP = 76, FP = 0) 
+class_id = 50, name = instant_noodles, ap = 96.66%   	 (TP = 59, FP = 10) 
+
+ for conf_thresh = 0.25, precision = 0.87, recall = 0.86, F1-score = 0.87 
+ for conf_thresh = 0.25, TP = 3562, FP = 528, FN = 574, average IoU = 70.34 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.874117, or 87.41 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+ObjectRecognition/background_eval/background_2.txt
+net.optimized_memory = 0 
+mini_batch = 1, batch = 32, time_steps = 1, train = 0 
+
+ seen 64, trained: 210 K-images (3 Kilo-batches_64) 
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 10848, unique_truth_count = 3078  
+class_id = 0, name = cap, ap = 92.46%   	 (TP = 75, FP = 1) 
+class_id = 1, name = soda_can, ap = 75.47%   	 (TP = 22, FP = 2) 
+class_id = 2, name = scissors, ap = 40.65%   	 (TP = 23, FP = 10) 
+class_id = 3, name = notebook, ap = 93.81%   	 (TP = 73, FP = 9) 
+class_id = 4, name = camera, ap = 80.86%   	 (TP = 38, FP = 10) 
+class_id = 5, name = marker, ap = 95.13%   	 (TP = 117, FP = 5) 
+class_id = 6, name = flashlight, ap = 80.20%   	 (TP = 45, FP = 1) 
+class_id = 7, name = greens, ap = 89.02%   	 (TP = 40, FP = 7) 
+class_id = 8, name = apple, ap = 72.96%   	 (TP = 65, FP = 6) 
+class_id = 9, name = pitcher, ap = 76.23%   	 (TP = 46, FP = 2) 
+class_id = 10, name = food_jar, ap = 89.55%   	 (TP = 32, FP = 1) 
+class_id = 11, name = keyboard, ap = 95.99%   	 (TP = 90, FP = 12) 
+class_id = 12, name = food_bag, ap = 56.87%   	 (TP = 22, FP = 11) 
+class_id = 13, name = comb, ap = 72.26%   	 (TP = 56, FP = 18) 
+class_id = 14, name = kleenex, ap = 75.27%   	 (TP = 30, FP = 2) 
+class_id = 15, name = bowl, ap = 96.74%   	 (TP = 47, FP = 1) 
+class_id = 16, name = toothbrush, ap = 34.22%   	 (TP = 3, FP = 2) 
+class_id = 17, name = bell_pepper, ap = 90.62%   	 (TP = 39, FP = 18) 
+class_id = 18, name = toothpaste, ap = 58.12%   	 (TP = 24, FP = 3) 
+class_id = 19, name = hand_towel, ap = 91.70%   	 (TP = 44, FP = 6) 
+class_id = 20, name = cereal_box, ap = 81.80%   	 (TP = 62, FP = 12) 
+class_id = 21, name = coffee_mug, ap = 69.91%   	 (TP = 42, FP = 1) 
+class_id = 22, name = pear, ap = 80.01%   	 (TP = 28, FP = 6) 
+class_id = 23, name = calculator, ap = 97.21%   	 (TP = 41, FP = 2) 
+class_id = 24, name = mushroom, ap = 88.14%   	 (TP = 32, FP = 5) 
+class_id = 25, name = peach, ap = 67.98%   	 (TP = 24, FP = 8) 
+class_id = 26, name = rubber_eraser, ap = 86.55%   	 (TP = 78, FP = 5) 
+class_id = 27, name = pliers, ap = 97.83%   	 (TP = 63, FP = 2) 
+class_id = 28, name = potato, ap = 78.03%   	 (TP = 49, FP = 5) 
+class_id = 29, name = cell_phone, ap = 89.06%   	 (TP = 98, FP = 10) 
+class_id = 30, name = food_box, ap = 97.87%   	 (TP = 93, FP = 6) 
+class_id = 31, name = garlic, ap = 61.51%   	 (TP = 17, FP = 9) 
+class_id = 32, name = stapler, ap = 95.34%   	 (TP = 83, FP = 4) 
+class_id = 33, name = shampoo, ap = 93.41%   	 (TP = 105, FP = 12) 
+class_id = 34, name = binder, ap = 83.92%   	 (TP = 102, FP = 10) 
+class_id = 35, name = tomato, ap = 81.78%   	 (TP = 36, FP = 14) 
+class_id = 36, name = ball, ap = 99.87%   	 (TP = 96, FP = 2) 
+class_id = 37, name = orange, ap = 66.31%   	 (TP = 14, FP = 9) 
+class_id = 38, name = lime, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 39, name = sponge, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 40, name = food_can, ap = 88.76%   	 (TP = 28, FP = 1) 
+class_id = 41, name = plate, ap = 85.74%   	 (TP = 23, FP = 1) 
+class_id = 42, name = lemon, ap = 75.00%   	 (TP = 5, FP = 24) 
+class_id = 43, name = lightbulb, ap = 62.72%   	 (TP = 19, FP = 12) 
+class_id = 44, name = glue_stick, ap = 59.52%   	 (TP = 9, FP = 3) 
+class_id = 45, name = onion, ap = 50.24%   	 (TP = 2, FP = 8) 
+class_id = 46, name = food_cup, ap = 98.20%   	 (TP = 34, FP = 3) 
+class_id = 47, name = banana, ap = 53.67%   	 (TP = 8, FP = 11) 
+class_id = 48, name = dry_battery, ap = 57.88%   	 (TP = 22, FP = 2) 
+class_id = 49, name = water_bottle, ap = 52.43%   	 (TP = 29, FP = 2) 
+class_id = 50, name = instant_noodles, ap = 92.90%   	 (TP = 30, FP = 19) 
+
+ for conf_thresh = 0.25, precision = 0.87, recall = 0.72, F1-score = 0.78 
+ for conf_thresh = 0.25, TP = 2203, FP = 335, FN = 875, average IoU = 68.00 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.755241, or 75.52 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+ObjectRecognition/background_eval/background_3.txt
+net.optimized_memory = 0 
+mini_batch = 1, batch = 32, time_steps = 1, train = 0 
+
+ seen 64, trained: 210 K-images (3 Kilo-batches_64) 
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 4952, unique_truth_count = 1328  
+class_id = 0, name = cap, ap = 91.47%   	 (TP = 47, FP = 10) 
+class_id = 1, name = soda_can, ap = 99.78%   	 (TP = 21, FP = 6) 
+class_id = 2, name = scissors, ap = 93.22%   	 (TP = 33, FP = 5) 
+class_id = 3, name = notebook, ap = 89.54%   	 (TP = 57, FP = 11) 
+class_id = 4, name = camera, ap = 69.73%   	 (TP = 24, FP = 0) 
+class_id = 5, name = marker, ap = 22.06%   	 (TP = 4, FP = 3) 
+class_id = 6, name = flashlight, ap = 68.96%   	 (TP = 25, FP = 5) 
+class_id = 7, name = greens, ap = 100.00%   	 (TP = 43, FP = 0) 
+class_id = 8, name = apple, ap = 24.23%   	 (TP = 2, FP = 1) 
+class_id = 9, name = pitcher, ap = 79.19%   	 (TP = 26, FP = 7) 
+class_id = 10, name = food_jar, ap = 82.57%   	 (TP = 7, FP = 1) 
+class_id = 11, name = keyboard, ap = 89.92%   	 (TP = 34, FP = 6) 
+class_id = 12, name = food_bag, ap = 72.68%   	 (TP = 19, FP = 12) 
+class_id = 13, name = comb, ap = 42.35%   	 (TP = 6, FP = 5) 
+class_id = 14, name = kleenex, ap = 97.28%   	 (TP = 51, FP = 1) 
+class_id = 15, name = bowl, ap = 100.00%   	 (TP = 41, FP = 0) 
+class_id = 16, name = toothbrush, ap = 44.17%   	 (TP = 4, FP = 1) 
+class_id = 17, name = bell_pepper, ap = 99.57%   	 (TP = 35, FP = 2) 
+class_id = 18, name = toothpaste, ap = 44.21%   	 (TP = 12, FP = 7) 
+class_id = 19, name = hand_towel, ap = 97.47%   	 (TP = 46, FP = 1) 
+class_id = 20, name = cereal_box, ap = 97.78%   	 (TP = 45, FP = 0) 
+class_id = 21, name = coffee_mug, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 22, name = pear, ap = 99.10%   	 (TP = 33, FP = 2) 
+class_id = 23, name = calculator, ap = 76.29%   	 (TP = 34, FP = 17) 
+class_id = 24, name = mushroom, ap = 29.32%   	 (TP = 6, FP = 1) 
+class_id = 25, name = peach, ap = 81.52%   	 (TP = 6, FP = 1) 
+class_id = 26, name = rubber_eraser, ap = 59.09%   	 (TP = 7, FP = 3) 
+class_id = 27, name = pliers, ap = 92.31%   	 (TP = 12, FP = 2) 
+class_id = 28, name = potato, ap = 88.41%   	 (TP = 8, FP = 5) 
+class_id = 29, name = cell_phone, ap = 62.30%   	 (TP = 12, FP = 6) 
+class_id = 30, name = food_box, ap = 69.80%   	 (TP = 9, FP = 5) 
+class_id = 31, name = garlic, ap = 100.00%   	 (TP = 9, FP = 3) 
+class_id = 32, name = stapler, ap = 96.30%   	 (TP = 26, FP = 1) 
+class_id = 33, name = shampoo, ap = 54.18%   	 (TP = 11, FP = 2) 
+class_id = 34, name = binder, ap = 84.55%   	 (TP = 32, FP = 1) 
+class_id = 35, name = tomato, ap = 0.00%   	 (TP = 0, FP = 1) 
+class_id = 36, name = ball, ap = 95.45%   	 (TP = 14, FP = 4) 
+class_id = 37, name = orange, ap = 50.00%   	 (TP = 1, FP = 2) 
+class_id = 38, name = lime, ap = 0.00%   	 (TP = 0, FP = 1) 
+class_id = 39, name = sponge, ap = 0.00%   	 (TP = 0, FP = 1) 
+class_id = 40, name = food_can, ap = 90.41%   	 (TP = 8, FP = 1) 
+class_id = 41, name = plate, ap = 100.00%   	 (TP = 21, FP = 0) 
+class_id = 42, name = lemon, ap = 86.22%   	 (TP = 12, FP = 7) 
+class_id = 43, name = lightbulb, ap = 96.91%   	 (TP = 30, FP = 3) 
+class_id = 44, name = glue_stick, ap = 99.35%   	 (TP = 13, FP = 0) 
+class_id = 45, name = onion, ap = 100.00%   	 (TP = 10, FP = 2) 
+class_id = 46, name = food_cup, ap = 99.09%   	 (TP = 23, FP = 1) 
+class_id = 47, name = banana, ap = 100.00%   	 (TP = 4, FP = 1) 
+class_id = 48, name = dry_battery, ap = 32.94%   	 (TP = 6, FP = 0) 
+class_id = 49, name = water_bottle, ap = 92.78%   	 (TP = 39, FP = 3) 
+class_id = 50, name = instant_noodles, ap = 52.15%   	 (TP = 9, FP = 2) 
+
+ for conf_thresh = 0.25, precision = 0.86, recall = 0.74, F1-score = 0.79 
+ for conf_thresh = 0.25, TP = 977, FP = 162, FN = 351, average IoU = 67.40 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.724439, or 72.44 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+ObjectRecognition/background_eval/background_4.txt
+net.optimized_memory = 0 
+mini_batch = 1, batch = 32, time_steps = 1, train = 0 
+
+ seen 64, trained: 210 K-images (3 Kilo-batches_64) 
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 3601, unique_truth_count = 1209  
+class_id = 0, name = cap, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 1, name = soda_can, ap = 99.78%   	 (TP = 59, FP = 3) 
+class_id = 2, name = scissors, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 3, name = notebook, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 4, name = camera, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 5, name = marker, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 6, name = flashlight, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 7, name = greens, ap = 99.61%   	 (TP = 27, FP = 6) 
+class_id = 8, name = apple, ap = 98.52%   	 (TP = 38, FP = 4) 
+class_id = 9, name = pitcher, ap = 96.17%   	 (TP = 27, FP = 2) 
+class_id = 10, name = food_jar, ap = 100.00%   	 (TP = 19, FP = 3) 
+class_id = 11, name = keyboard, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 12, name = food_bag, ap = 95.65%   	 (TP = 45, FP = 0) 
+class_id = 13, name = comb, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 14, name = kleenex, ap = 100.00%   	 (TP = 24, FP = 1) 
+class_id = 15, name = bowl, ap = 100.00%   	 (TP = 20, FP = 0) 
+class_id = 16, name = toothbrush, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 17, name = bell_pepper, ap = 100.00%   	 (TP = 26, FP = 0) 
+class_id = 18, name = toothpaste, ap = 100.00%   	 (TP = 16, FP = 0) 
+class_id = 19, name = hand_towel, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 20, name = cereal_box, ap = 0.00%   	 (TP = 0, FP = 1) 
+class_id = 21, name = coffee_mug, ap = 97.72%   	 (TP = 23, FP = 3) 
+class_id = 22, name = pear, ap = 96.69%   	 (TP = 38, FP = 5) 
+class_id = 23, name = calculator, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 24, name = mushroom, ap = 99.88%   	 (TP = 70, FP = 4) 
+class_id = 25, name = peach, ap = 90.47%   	 (TP = 33, FP = 5) 
+class_id = 26, name = rubber_eraser, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 27, name = pliers, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 28, name = potato, ap = 99.06%   	 (TP = 29, FP = 6) 
+class_id = 29, name = cell_phone, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 30, name = food_box, ap = 100.00%   	 (TP = 32, FP = 0) 
+class_id = 31, name = garlic, ap = 100.00%   	 (TP = 22, FP = 1) 
+class_id = 32, name = stapler, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 33, name = shampoo, ap = 100.00%   	 (TP = 22, FP = 0) 
+class_id = 34, name = binder, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 35, name = tomato, ap = 99.83%   	 (TP = 47, FP = 1) 
+class_id = 36, name = ball, ap = 0.00%   	 (TP = 0, FP = 1) 
+class_id = 37, name = orange, ap = 98.84%   	 (TP = 44, FP = 7) 
+class_id = 38, name = lime, ap = 99.12%   	 (TP = 58, FP = 1) 
+class_id = 39, name = sponge, ap = 99.83%   	 (TP = 80, FP = 2) 
+class_id = 40, name = food_can, ap = 98.38%   	 (TP = 47, FP = 2) 
+class_id = 41, name = plate, ap = 98.72%   	 (TP = 49, FP = 7) 
+class_id = 42, name = lemon, ap = 100.00%   	 (TP = 37, FP = 5) 
+class_id = 43, name = lightbulb, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 44, name = glue_stick, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 45, name = onion, ap = 97.25%   	 (TP = 36, FP = 5) 
+class_id = 46, name = food_cup, ap = 99.94%   	 (TP = 58, FP = 3) 
+class_id = 47, name = banana, ap = 100.00%   	 (TP = 47, FP = 2) 
+class_id = 48, name = dry_battery, ap = 0.00%   	 (TP = 0, FP = 0) 
+class_id = 49, name = water_bottle, ap = 99.38%   	 (TP = 34, FP = 0) 
+class_id = 50, name = instant_noodles, ap = 99.74%   	 (TP = 68, FP = 3) 
+
+ for conf_thresh = 0.25, precision = 0.93, recall = 0.97, F1-score = 0.95 
+ for conf_thresh = 0.25, TP = 1175, FP = 83, FN = 34, average IoU = 77.21 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.581290, or 58.13 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
