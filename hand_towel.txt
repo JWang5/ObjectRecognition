@@ -1,0 +1,3 @@
+./aridDataset/arid_40k_scene_dataset/Exp_3/wp_3_2_6/rgb/wp_3_2_6_016.png
+./aridDataset/arid_40k_scene_dataset/Exp_8/wp_8_3_7/rgb/wp_8_3_7_004.png
+./aridDataset/arid_40k_scene_dataset/Exp_9/wp_9_3_51/rgb/wp_9_3_51_016.png
